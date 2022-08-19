@@ -1,0 +1,17 @@
+@use "../global" as *;
+
+.l-header {
+  height: 60px;
+  @include size {
+    height: 80px;
+  }
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+
+  z-index: 10;
+}

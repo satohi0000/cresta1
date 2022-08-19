@@ -1,0 +1,13 @@
+@use "../global" as *;
+
+.l-contents {
+  padding: 75px 40px 0px 40px;
+  @include size {
+    padding: 70px 28px 0px 40px;
+  }
+  margin: 0 auto;
+  margin-top: 15px;
+  @include size {
+    margin-top: 0px;
+  }
+}

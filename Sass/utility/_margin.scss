@@ -1,0 +1,8 @@
+@use "../global" as *;
+
+.margin125 {
+  margin-top: 122px;
+  @include size {
+    margin-top: 60px;
+  }
+}
