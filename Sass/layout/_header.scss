@@ -1,17 +1,28 @@
 @use "../global" as *;
 
 .l-header {
-  height: 60px;
+  max-width: 1400px;
+  padding: 10px 120px;
+  height: 55px;
+  border-bottom: 2px solid #ffffff;
   @include size {
     height: 80px;
   }
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
-  left: 0;
-  right: 0;
-
-  z-index: 10;
+  background-color: #1b1310;
+  &__menu {
+    width: $inner1;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 7px 0;
+    li {
+      padding: 11px 0 0 55px;
+      &:first-of-type {
+        padding: 11px 0 0 41px;
+      }
+      > a {
+        @include f_style(14, bold, 21, 0);
+      }
+    }
+  }
 }
