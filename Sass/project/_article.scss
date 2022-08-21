@@ -49,8 +49,8 @@
   &__3card {
     display: flex;
     &-1 {
-      margin-top: 76px;
-      margin-left: 35px;
+      margin-top: 75px;
+      margin-left: 33px;
       width: 33%;
       border: 1px solid #707070;
       &:nth-of-type(1) {
@@ -59,7 +59,7 @@
       p {
         padding: 17px 31px 25px 34px;
         margin-top: 0;
-        @include f_style(13, W6, 25, 50);
+        @include f_style(13, medium, 25, 50);
       }
     }
   }

@@ -352,8 +352,8 @@ select {
   display: flex;
 }
 .p-article__3card-1 {
-  margin-top: 76px;
-  margin-left: 35px;
+  margin-top: 75px;
+  margin-left: 33px;
   width: 33%;
   border: 1px solid #707070;
 }
@@ -364,7 +364,7 @@ select {
   padding: 17px 31px 25px 34px;
   margin-top: 0;
   font-size: 13px;
-  font-weight: W6;
+  font-weight: medium;
   line-height: 1.9230769231;
   letter-spacing: 0.05em;
 }
