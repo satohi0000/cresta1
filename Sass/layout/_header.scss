@@ -3,14 +3,18 @@
 .l-header {
   max-width: 1400px;
   padding: 10px 120px;
+  @include tab {
+    width: 92%;
+    padding: 10px 4%;
+  }
   height: 55px;
   border-bottom: 2px solid #ffffff;
-  @include size {
-    height: 80px;
-  }
   background-color: #1b1310;
   &__menu {
-    width: $inner1;
+    max-width: $inner1;
+    @include tab {
+      width: 100%;
+    }
     display: flex;
     justify-content: space-between;
     margin: 0 auto;

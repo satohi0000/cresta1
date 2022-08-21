@@ -2,11 +2,11 @@
 
 .p-sns {
   display: flex;
-  @include size {
+  @include tab {
     margin-top: 44px;
     margin-left: 39px;
   }
-  @include size {
+  @include tab {
     margin-left: 0px;
   }
   > :nth-child(1) {

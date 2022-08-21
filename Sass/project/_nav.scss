@@ -3,5 +3,8 @@
 .p-nav {
   &__menu {
     display: flex;
+    @include tab {
+      display: none;
+    }
   }
 }

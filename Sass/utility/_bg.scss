@@ -2,7 +2,7 @@
 
 .bg-fixed {
   height: 300px;
-  @include size {
+  @include tab {
     height: 95px;
   }
   background-attachment: fixed;
