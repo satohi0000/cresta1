@@ -7,12 +7,12 @@
     margin-left: 14px;
   }
   &:nth-of-type(1) {
-    margin-top: 110px;
+    margin-top: 113px;
   }
   &:nth-of-type(2) {
-    margin-top: 178px;
+    margin-top: 175px;
     @include tab {
-      margin-top: 168px;
+      margin-top: 164px;
     }
   }
   &:nth-of-type(3) {
@@ -43,7 +43,7 @@
   p {
     margin-top: 26px;
     @include tab {
-      margin-top: 16px;
+      margin-top: 20px;
       letter-spacing: 0.06em;
       padding-right: 11px;
     }
@@ -51,14 +51,18 @@
   &__2colum {
     &1 {
       display: flex;
+      width: 100%;
       @include tab {
         flex-direction: column-reverse;
       }
 
       &-left {
-        margin-top: 78px;
+        width: 94%;
+        margin-top: 82px;
+
         @include tab {
-          margin-top: 40px;
+          margin-top: 36px;
+          width: 100%;
         }
         img {
           width: 100%;
@@ -79,10 +83,12 @@
     }
     &2 {
       display: flex;
+      width: 100%;
       @include tab {
         flex-direction: column;
       }
       &-left {
+        width: 100%;
         margin-bottom: 5px;
         margin-right: 70px;
         @include tab {
@@ -97,6 +103,7 @@
       }
       &-right {
         margin-top: 47px;
+        width: 100%;
         @include tab {
           margin-top: 5px;
         }
